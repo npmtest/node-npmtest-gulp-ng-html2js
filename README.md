@@ -1,6 +1,6 @@
 # npmtest-gulp-ng-html2js
 
-#### test coverage for  [gulp-ng-html2js (v0.2.2)](https://github.com/marklagendijk/gulp-ng-html2js)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-ng-html2js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-ng-html2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-ng-html2js.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-ng-html2js)
+#### basic test coverage for  [gulp-ng-html2js (v0.2.2)](https://github.com/marklagendijk/gulp-ng-html2js)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-ng-html2js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-ng-html2js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-ng-html2js.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-ng-html2js)
 
 #### A Gulp plugin which generates AngularJS modules, which pre-load your HTML code into the $templateCache. This way AngularJS doesn't need to request the actual HTML files anymore.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-ng-html2js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-ng-html2js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-ng-html2js/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
